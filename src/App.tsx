@@ -1,4 +1,4 @@
-import { TodoList } from './toDoList.tsx';
+import { TodoList } from "./TodoList"
 
 function App() {
 const container: React.CSSProperties = {

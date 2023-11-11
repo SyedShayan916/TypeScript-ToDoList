@@ -65,9 +65,8 @@ const list: React.CSSProperties = {
                     onClick ={() => handleToggle(item.id)} 
                     style={
                         {
-                    textDecoration: item.completed ? "line-through": 'none',
+                            backgroundColor: item.completed ? "green": '#1677ff',
                     listStyleType: 'none',
-                    backgroundColor: '#1677ff',
                     marginTop:'10px',
                     marginLeft:'-40px',
                     paddingLeft:'10px',
